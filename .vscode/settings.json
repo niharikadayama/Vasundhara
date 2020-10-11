@@ -1,0 +1,27 @@
+{
+    "editor.quickSuggestions": null,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-close-tag.activationOnLanguage": [
+    "HTML (EEx)"
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ]
+}

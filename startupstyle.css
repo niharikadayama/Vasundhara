@@ -1,0 +1,73 @@
+.card {
+    float: right;
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 20px 880px;
+    grid-template-areas: "image""text";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 1s ease;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.card {
+    float: left;
+    display: contents;
+    align-content: center;
+    content-area
+}
+
+.card-image {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bg2.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+body {
+    /*width: 100vw;
+    height: 100vh;*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Homepage_bg.png");
+    /*<!-- background-url("Homepage_bg.png")*/
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
