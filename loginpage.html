@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    </head>
+    <body>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h1 class="text-centre">LOGIN</h1>
+                    <form action="login.php" class="modal-content" method="get">
+                        <label>Name</label>
+                        <input type="text" class="form-control" name="user" placeholder="enter your registered name" required>
+                        <br>
+                        <label>Password</label>
+                        <input type="password" class="form-control" name="pass" placeholder="enter your password" required>
+
+                    
+                        <br>
+                        <a href="homepage.php">
+                            <button type="submit" name="click" class="btn-primary btn-info">Login</button>
+                        </a>
+                        <p>Not yet a member?<a href="registerpage.php">   Sign in</a></p>
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
