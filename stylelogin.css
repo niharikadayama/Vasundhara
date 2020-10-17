@@ -1,54 +1,59 @@
-*{
-    margin:0px;
-    padding:0px
+* {
+    margin: 0px;
+    padding: 0px
 }
-body{
+
+body {
     background-image: url('bg.png');
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
+}
 
-}
-h1{
+h1 {
     font-size: 50px;
-    color:rgba(255,255,255);
-    margin-left:180px;
-    margin-top:60px;
-    margin-bottom:30px;
-    
+    color: rgba(255, 255, 255);
+    margin-left: 180px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
-.modal-content{
+
+.modal-content {
     margin-top: 80px;
     background: transparent;
     align-items: center;
-
 }
-.form-control{
+
+.form-control {
     background: transparent;
     border: 2px solid white;
     text-decoration: white;
- 
 }
-label{
+
+label {
     color: white;
     font-size: large;
 }
-input{
+
+input {
     color: white;
 }
-.btn-info{
-    margin-top:20px;
+
+.btn-info {
+    margin-top: 20px;
     margin-left: 180px;
     width: 180px;
     border-radius: 1000px;
 }
-input[type=text]{
-    color: white;
-}
-input[type=password]{
+
+input[type=text] {
     color: white;
 }
 
-p{
-    color:ivory;
+input[type=password] {
+    color: white;
+}
+
+p {
+    color: ivory;
 }
