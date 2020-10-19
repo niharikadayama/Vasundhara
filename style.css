@@ -32,7 +32,7 @@ body {
     width: fit-content;
     display: grid;
     grid-template-columns: 382px;
-    grid-template-rows: 210px 210px 80px;
+    grid-template-rows: 220px 250px 80px;
     grid-template-areas: "image""text""stats";
     border-radius: 18px;
     background: white;
@@ -66,6 +66,49 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
+}
+
+.card-image4 {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("ACT.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image5 {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pepaa.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image6 {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("dopology.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 100%;
+    background-position: 150%;
+}
+
+.card-image7 {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("greenthemap.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 100%;
+    background-position: 150%;
+}
+
+.card-image8 {
+    grid-area: image;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("rubberpot.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 100%;
+    background-position: 150%;
 }
 
 .card-text {
