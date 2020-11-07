@@ -394,7 +394,7 @@
   <section class="join_us section_padding text-center cover-bg">
     <div class="container">
       <h2>Approach us to connect as a seller or a customer</h2>
-      <a href="contactus.php" class="btn mt-30">CONTACT US</a>
+      <a href="contactus2.php" class="btn mt-30">CONTACT US</a>
     </div>
   </section>
   <footer class="footer text-center">
@@ -404,9 +404,9 @@
           <a href="#" class="navbar-brand custom_logo"><span>VASUNDHARA</span></a>
         </div>
         <div class="social_icon text-center">
-          <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+          <a href="https://www.facebook.com/vasundhara.nobleperspective.7"><span><i class="fa fa-facebook"></i></span></a>
           <a href="#"><span><i class="fa fa-twitter"></i></span></a>
-          <a href="#"><span><i class="fa fa-instagram"></i></span></a>
+          <a href="https://www.instagram.com/vasundharaperspectivenoble/"><span><i class="fa fa-instagram"></i></span></a>
           <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
         </div>
         <div class="copy">
