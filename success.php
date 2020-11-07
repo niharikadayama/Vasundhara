@@ -46,12 +46,14 @@
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us Using PHPMailer & Gmail SMTP</title>
+  <link rel="stylesheet" href="stylesuccess.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <style>
 form {
@@ -106,6 +108,11 @@ input[type=text] {
 }
 </style>
 <body class="bg-info">
+<div class="alert">
+<span class="fas fa-exclamation-circle"></span>
+<span class="msg">Warning: This is a warning alert.</span>
+</div>
+
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 mt-3">

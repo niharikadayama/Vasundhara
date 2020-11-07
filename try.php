@@ -14,9 +14,10 @@
 
   $output = '';
 
-  if (isset($_POST['submit'])) {
+  if (isset($_POST['send'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
+    $phone=$_POST['phone'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
@@ -135,6 +136,9 @@ body {
 		
 	</hr>
 		<div class="container">
+        <form action="#" method="POST">
+              <div class="form-group">
+                <?= $output; ?>
 
 			<div class="contact-form row">
 				<div class="form-field col-lg-6">
@@ -166,49 +170,10 @@ body {
 
 				</div>
 			</div>
-		</div>
-	</form>
-	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript">
-	   function sendEmail(){
-		   var name =$("#name");
-		   var email =$("#email");
-		   var phone =$("#phone");
-		   var subject =$("#subject");
-		   var message =$("#message");
-		   if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(phone) && isNotEmpty(subject) && isNotEmpty(message) ){
-			   $.ajax({
-				   url: 'sendemail.php',
-				   method: 'POST',
-				   dataType :'json',
-				   data:{
-					   name:name.val(),
-					   email:email.val(),
-					   phone:phone.val(),
-					   subject:subject.val(),
-					   message:message.val(),
-
-				   }, success:function(response){
-					   $('#myform')[0].reset();
-					   $('.sent-notification').text("Message sent successfully.");
-				   }
-
-			   });
-		   }
-
-	   }
-	   function isNotEmpty(caller){
-		   if(caller.val()==""){
-			   caller.css('border','1px solid red');
-			   return false;
-		   }
-		   else{
-			   caller.css('border','');
-			   return true;
-		   }
-	   }
-	</script>
-
-		
+</div>
+    </div>
+    </section>
+    </form>
+	</div>
 </body>
 </html>

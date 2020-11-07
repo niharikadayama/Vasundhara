@@ -3,6 +3,58 @@
 <head>
 	<title>Meet Our Team</title>
 <style>
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+.about{
+    width:100%;
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-image: url(Homepage_bg.png);
+}
+.text{
+    font-size:30px;
+    color:#fff;
+    font-family: sans-serif;
+    text-shadow: 0px 15px 12px #000;
+
+}
+.line{
+    width:200px;
+    height:8px;
+    background-color: #17ff8d;
+    display: block;
+    position: relative;
+    left:10%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 12px 0px #000;
+
+}
+.content{
+    width:100%;
+    height:auto;
+    background-color: #17ff8d;
+    font-size: 23px;
+    font-family: audiowide;
+    color:#333;
+    line-height:30px;
+    text-align:center;
+
+}
 .meet-our-team{
     width: 100%;
     padding:72px 0px 72px 0px;
@@ -16,14 +68,14 @@
     margin-bottom: 25px;
     letter-spacing:0.5px;
     text-align: center;
-    color: #272727;
+    color: white;
 }
 .meet-our-team .heading p{
     width: 60%;
     margin: auto;
     text-align: center;
     line-height: 25px;
-    color: #727272;
+    color: white;
     font-size: 25px;
 }
 .meet-our-team .col-md-3 {
@@ -63,13 +115,15 @@
  h3{
     font-size: 18px;
     font-weight: 600;
-    color:teal;
+    color:white;
     line-height: 30px;
     letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 span{
     font-size: 18px;
-    color: #727272;
+    color: white;
+     font-family: Arial, Helvetica, sans-serif;
 
 }
 .meet-our-team .col-md-3 figure .grid_holder .team_content_holder ::before{
@@ -78,15 +132,121 @@ span{
     bottom: 0;
     width: 100%;
     height: 2px;
-    background-color:teal;
+    background-color:white;
     left:-31px;
 
+}
+.about-us .info h2{
+    font-size: 35px;
+    line-height:35px;
+    margin-bottom: 25px;
+    letter-spacing:0.5px;
+    text-align: left;
+    color: #17ff8d;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.about-us .info p{
+    font-size: 25px;
+    line-height:35px;
+    margin-bottom: 25px;
+    letter-spacing:0.5px;
+    text-align: left;
+    color: black;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+b{
+    font-size:50px;
+    color:#000;
+    font-weight:500px;
+}
+footer{
+    width:100%;
+    height:auto;
+    background-color:black;
+    color:#17ff8d;
+    font-size:23px;
+    line-height: 50px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:bold;
 }
 
 
 </style>
 </head>
 <body>
+    <div class="container">
+        <div class="about">
+            <div class="text">
+                <h1>About Us</h1>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="content">
+            <p>
+                we generate large amounts of waste: food and garden waste, construction and demolition waste, mining waste, industrial waste, sludge, old televisions, old cars, batteries, plastic bags, paper, sanitary waste, old clothes and old furniture and the list goes on.
+                <b>"V</b>asundhara"-A noble prespective is a small initiave by enginnering students wherein we are connecting you to different startups who are creating astounding products using waste generated in nature . Thier efforts are worth extolling.
+        </p>
+            
+        </div>
+
+    </div>
+    <div class="row">
+  <div class="column">
+    <h2>who we are?</h2>
+    <p>
+        A noble prespective , aims at providing a virtual  platform to the innovative ideas that have potential of becoming harmless,reliable and economically efficient products.
+        our website  would act as a conduit that would channel the informative flow of innovations amongst the potential customers and funders.
+       
+    </p>
+      
+  </div>
+  <div class="column">
+    <h2>what we do?</h2>
+    <p>
+        Every action has an equal and opposite reaction. No matter how technically efficient we become, the environment faces the repercussions of inhumane activities. To mitigate this, many unheard heroes have initiated efforts but being technologically inefficient their ideas fail to reach the potential crowd.
+        To overcome this we have created this platform wherein we are connecting this superheros to the public.
+
+    </p>
+      
+  </div>
+  <div class="column">
+    <h2>our services</h2>
+    <p>
+        We are providing  a website dedicated to the unrecognized startups that aim to create eco-friendly products. This website will be designed to maximize the
+consumption of these products by providing tools to channel the provider and consumer which would otherwise have to be done manually. The website will be easy to understand and use.
+
+    </p>
+      
+  </div>
+</div>
     <section class="meet-our-team">
         <div class="main">
             <div class="heading">
@@ -105,7 +265,7 @@ span{
                         <div class="team_content_holder">
                             <div class="personal_info">
                                 <h3>Niharika Dayma</h3>
-                                <span>student at ghrce</span>
+                                <span>Designer and Developer</span>
                             </div>
                         </div>
 
@@ -121,7 +281,7 @@ span{
                         <div class="team_content_holder">
                             <div class="personal_info">
                                 <h3>Anuja Tomar</h3>
-                                <span>student at ghrce</span>
+                                <span>Administrator and Developer</span>
                             </div>
                         </div>
 
@@ -137,7 +297,7 @@ span{
                         <div class="team_content_holder">
                             <div class="personal_info">
                                 <h3>Rutvik Pohankar</h3>
-                                <span>student at ghrce</span>
+                                <span>Researcher and Developer</span>
                             </div>
                         </div>
 
@@ -153,7 +313,7 @@ span{
                         <div class="team_content_holder">
                             <div class="personal_info">
                                 <h3>Mansi Tardeja</h3>
-                                <span>student at ghrce</span>
+                                <span>Designer and Developer</span>
                             </div>
                         </div>
 
@@ -163,6 +323,7 @@ span{
         </div>
     </div>
     </section>
+     <footer>Copyright &copy : Vasundhara  Home | About us | Contact us </footer>
     
 </body>
 </html>
