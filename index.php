@@ -355,9 +355,9 @@
           <h2 class="mt-20">VASUNDHARA</h2>
           <p class="mt-20">Intiative targeting Sustainable growth, Vocal for Local, Cleaner and greener Earth.</p>
           <div class="social_icon text-center mt-20">
-            <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+            <a href="https://www.facebook.com/vasundhara.nobleperspective.7"><span><i class="fa fa-facebook"></i></span></a>
             <a href="#"><span><i class="fa fa-twitter"></i></span></a>
-            <a href="#"><span><i class="fa fa-instagram"></i></span></a>
+            <a href="https://www.instagram.com/vasundharaperspectivenoble/"><span><i class="fa fa-instagram"></i></span></a>
             <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
           </div>
         </div>
