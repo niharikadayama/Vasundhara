@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 40px;
+    color:rgba(255,255,255);
+    margin-left:100px;
+    margin-top:20px;
+    margin-bottom:30px;
+    
+}
+.modal-content{
+
+    background: transparent;
+    align-items: center;
+
+}
+.form-control{
+    background: transparent;
+    border: 2px solid white;
+    text-decoration: white;
+ 
+}
+label{
+    color: white;
+    font-size: large;
+}
+input{
+    color: white;
+}
+small{
+    font-size: 15px;
+    color: white;
+}
+.btn-info{
+    margin-top:20px;
+    margin-left: 150px;
+    width: 180px;
+    border-radius: 1000px;
+}
+input[type=text]{
+    color: white;
+}
