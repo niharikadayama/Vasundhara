@@ -1,8 +1,65 @@
+<?php
+  use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\Exception;
+
+  require 'PHPMailer/Exception.php';
+  require 'PHPMailer/PHPMailer.php';
+  require 'PHPMailer/SMTP.php';
+
+  // Include autoload.php file
+  require 'PHPMailer/PHPMailerAutoload.php';
+  // Create object of PHPMailer class
+  $mail = new PHPMailer(true);
+
+
+  $output = '';
+
+  if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    
+      $mail->isSMTP();
+      $mail->Host = 'smtp.gmail.com';
+      $mail->SMTPAuth = true;
+      // Gmail ID which you want to use as SMTP server
+      $mail->Username = 'mansitardeja1999@gmail.com';
+      // Gmail Password
+      $mail->Password = 'Mann@06100';
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+      $mail->Port = 587;
+
+      // Email ID from which you want to send the email
+      $mail->setFrom($_POST['email'],$_POST['name']);
+      // Recipient Email ID where you want to receive emails
+      $mail->addAddress('mansitardeja1999@gmail.com');
+      $mail->addReplyTo($_POST['email'],$_POST['name']);
+      $mail->isHTML(true);
+      $mail->Subject = 'Form Submission  :' .$_POST['subject'];
+      $mail->Body = '<h1 align=center>Name:'.$_POST['name'].'<br>Email:'.$_POST['email'].'<br>
+      Message:'.$_POST['msg'].'</h1>';
+       if(!$mail->send()){
+           $result="Something went wrong . Please try again .";
+       }
+       else{
+           $result="thanks ".$_POST['name']." for contacting us  . we'll get back to you soon ";
+       }
+
+      
+    
+  }
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>contact us form</title>
 <style>
+body {
+  background-image: url('Homepage_bg.png');
+}
 	.get_in_touch{
 	max-width: 800px;
 	margin:50px auto;
