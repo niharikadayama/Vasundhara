@@ -385,7 +385,7 @@
               adulteratation in products. Vasundhara as a group focuses on finding the solution to
               these issues by supporting eco-friendly waste managing Indian Start-ups.
             </p>
-            <a href="meet-our-team.html" class="btn">ABOUT US</a>
+            <a href="aboutus.html" class="btn">ABOUT US</a>
           </div>
         </div>
       </div>
