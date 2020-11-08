@@ -356,9 +356,9 @@
           <p class="mt-20">Intiative targeting Sustainable growth, Vocal for Local, Cleaner and greener Earth.</p>
           <div class="social_icon text-center mt-20">
             <a href="https://www.facebook.com/vasundhara.nobleperspective.7"><span><i class="fa fa-facebook"></i></span></a>
-            <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+            <a href="https://twitter.com/Vasundh70146997?s=08"><span><i class="fa fa-twitter"></i></span></a>
             <a href="https://www.instagram.com/vasundharaperspectivenoble/"><span><i class="fa fa-instagram"></i></span></a>
-            <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
+            <a href="https://www.linkedin.com/in/vasundhara-serves-you-86b0001bb"><span><i class="fa fa-linkedin"></i></span></a>
           </div>
         </div>
       </div>
@@ -405,9 +405,9 @@
         </div>
         <div class="social_icon text-center">
           <a href="https://www.facebook.com/vasundhara.nobleperspective.7"><span><i class="fa fa-facebook"></i></span></a>
-          <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+          <a href="https://twitter.com/Vasundh70146997?s=08"><span><i class="fa fa-twitter"></i></span></a>
           <a href="https://www.instagram.com/vasundharaperspectivenoble/"><span><i class="fa fa-instagram"></i></span></a>
-          <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
+          <a href="https://www.linkedin.com/in/vasundhara-serves-you-86b0001bb"><span><i class="fa fa-linkedin"></i></span></a>
         </div>
         <div class="copy">
           <h6>&copy Designed by web developers at Vasundhara group</h6>
