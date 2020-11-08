@@ -65,6 +65,7 @@
             padding: 30px;
             position: relative;
         }
+        
          .designation{
             position: absolute;
             bottom: 50px;
@@ -73,6 +74,12 @@
             border-radius: 0 20px 20px 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
             font-size: 14px;
+        }
+        .our-mission{
+            padding: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
         }
         .qoute-icon{
             float: left;
@@ -84,6 +91,17 @@
             font-size: 25px;
             font-style: italic;
             color: teal;
+        }
+        @media(max-width: 700px){
+            .our-team{
+                flex-direction: column;
+                align-items: center;
+            }
+            .our-team img{
+                height: 250px;
+                width: 300px;
+                object-fit: cover;
+            }
         }
     </style>
 </head>
