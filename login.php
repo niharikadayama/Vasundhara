@@ -9,9 +9,9 @@ $result=mysqli_query($con,$s);
 $num=mysqli_num_rows($result);
 if($num==1)
 {
-    header('location:homepage.php');
+    header('location:loginpage.php');
 }
 else{
-    header('location:loginpage.php');
+    header('location:homepage.php');
 }
 ?>
